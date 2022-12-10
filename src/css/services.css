@@ -1,0 +1,80 @@
+.servicos {
+    width: 100%;
+    height: 620px;
+    background: url("../images/servicos.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(79,76,76,1);
+}
+
+.servicos__title {
+    margin-top: 50px;
+    width: 280px;
+    font-weight: Bold;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    font-size: 25px;
+}
+
+.servicos__content{
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 36px;
+}
+
+.servicos__content__text {
+    width: 199px;
+    left: 93px;
+    text-align: left;
+}
+  
+.servicos__instalacao {
+    width: 270px;
+    margin-bottom: 30px;
+    font-weight: Bold;
+    font-size: 19px;
+    text-align: left;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    left: 93px;
+}
+
+ 
+.servicos__hidraulico__svg {
+    width: 57px;
+    height: 53px;
+    background: url("../svg/hidrante.svg")
+}
+
+.servicos__eletrico__svg {
+    width: 57px;
+    height: 54px;
+    background: url("../svg/lampada.svg")
+}
+
+.servicos__sinalizacao__svg {
+    width: 57px;
+    height: 53px;
+    background: url("../svg/placa.svg")
+}
+
+.servicos__extintores__svg {
+    width: 57px;
+    height: 54px;
+    background: url("../svg/extintor_preto.svg")
+}
+  
+.servicos__pasta__svg {
+    width: 57px;
+    height: 53px;
+    background: url("../svg/pasta.svg")
+}

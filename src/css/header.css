@@ -1,0 +1,33 @@
+.header {
+    height: 135px;
+    background: rgba(0,22,28,1);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header ul {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__link li{
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header__title a {
+    font-family: 'Anton';
+    font-size: 32px;
+    font-weight: Bold;
+}

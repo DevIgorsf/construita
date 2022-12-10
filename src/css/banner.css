@@ -1,0 +1,99 @@
+.banner-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--branco);
+    text-align: center;
+    
+    background-color: var(--bg-banner-container-mobile);
+
+    padding-top: 12.25rem;
+    padding-bottom: 2.5rem;
+}
+
+.banner-container__titulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.banner-container__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    margin: 0 auto 2.5rem;
+}
+
+.banner-container__botao {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .banner-container__texto {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner-container {
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+
+        padding-top: 8.25rem;
+    }
+
+    .banner-container__titulo {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.banner {
+    width: 375px;
+    height: 400px;
+    background: #E40505;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner__img {
+    width: 75px;
+    height: 97px;
+    background: url("../svg/extintor.svg");
+    margin-top: 50px;
+    margin-bottom: 26px;
+}
+
+.banner__text {
+    width: 297px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 34px;
+}
+  
+.banner__button {
+    background: #E40505;
+    width: 330px;
+    height: 50px;
+    border: 1px solid #F7F4F4;
+    border-radius: 10px;
+    text-align: center;
+}
+  
+.banner__button__text {
+    color: #fff;
+    font-family: Open Sans;
+    font-weight: Bold;
+    font-size: 15px;
+    text-align: center;
+}
+  
