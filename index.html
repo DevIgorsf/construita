@@ -1,218 +1,221 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <title>Home | Construita</title>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-        <link href="src/css/reset.css" rel="stylesheet">
-        <link href="src/css/base.css" rel="stylesheet">
-        <link href="src/css/header.css" rel="stylesheet">
-        <link href="src/css/banner.css" rel="stylesheet">
-        <link href="src/css/services.css" rel="stylesheet">
-        <link href="src/css/clientes.css" rel="stylesheet">
-        <link href="src/css/sobre.css" rel="stylesheet">
-        <link href="src/css/contato.css" rel="stylesheet">
-        <link href="src/css/institucional.css" rel="stylesheet">
-        <link href="src/css/footer.css" rel="stylesheet">
-    </head>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Home | Construita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="src/css/reset.css" rel="stylesheet">
+    <link href="src/css/base.css" rel="stylesheet">
+    <link href="src/css/header.css" rel="stylesheet">
+    <link href="src/css/banner.css" rel="stylesheet">
+    <link href="src/css/services.css" rel="stylesheet">
+    <link href="src/css/clientes.css" rel="stylesheet">
+    <link href="src/css/sobre.css" rel="stylesheet">
+    <link href="src/css/contato.css" rel="stylesheet">
+    <link href="src/css/institucional.css" rel="stylesheet">
+    <link href="src/css/footer.css" rel="stylesheet">
+</head>
 
-    <body class="container" >
-        <header class="header container">
-            <nav class="header__navegacao">
-                <h1 class="header__title"><a href="#">CONSTRUITA</a></h1>
-                <ul class="header__link">
-                    <li class="header__link-sobre"><a href="#">Sobre</a></li>
-                    <li class="header__link-servicos"><a href="#">Serviços</a></li>
-                    <li class="header__link-clientes"><a href="#">Clientes</a></li>
-                    <li class="header__link-contato"><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
+<body class="container" >
+    <header class="header container">
+        <h1 class="header__title"><a href="#">CONSTRUITA</a></h1>
+        <button class="header__menu" aria-label="Menu"><i></i></button>
+        <nav class="header__navegacao">
+            <ul class="header__link">
+                <li class="header__link-item header__link-sobre"><a href="#">Sobre</a></li>
+                <li class="header__link-item header__link-servicos"><a href="#">Serviços</a></li>
+                <li class="header__link-item header__link-clientes"><a href="#">Clientes</a></li>
+                <li class="header__link-item header__link-contato"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <section class="banner">
-            <div class="banner__img"></div>
-            <p class="banner__text">
-                Instalação e manutenção de sistemas de prevenção e combate à incêndio
-            </p>
-            <button class="banner__button">
-                <p class="banner__button__text">Peça um orçamento</p>
-            </button>
-        </section>
+    <section class="banner">
+        <div class="banner__img"></div>
+        <p class="banner__text">
+            Instalação e manutenção de sistemas de prevenção e combate à incêndio
+        </p>
+        <button class="banner__button">
+            Peça um orçamento
+        </button>
+    </section>
 
-        <section class="about">
-            <h2 class="about__title">Sobre a Construita</h2>
+    <section class="about">
+        <h2 class="about__title">Sobre a Construita</h2>
+        
+        <p class="about__text">
+            Somos uma empresa especializada em instalação e manutenção de sistemas de prevenção e combate à incêndio, há mais de 20 anos no mercado atendendo com agilidade e eficiência negócios de diferentes portes e segmentos em Belo Horizonte e região.
+            <br/>
+            <br/>
+            Nossos produtos e serviços seguem rigorosamente as NBR’s e as normas do Corpo de Bombeiros e prezamos pelo comprometimento, responsabilidade e respeito aos nossos clientes.
+        </p>
+    </section>
+
+    <sextion class="servicos">
+        <h2 class="servicos__title">Serviços</h2>
+        
+        <div>
             
-            <p class="about__text">
-                Somos uma empresa especializada em instalação e manutenção de sistemas de prevenção e combate à incêndio, há mais de 20 anos no mercado atendendo com agilidade e eficiência negócios de diferentes portes e segmentos em Belo Horizonte e região.
-                <br/>
-                <br/>
-                Nossos produtos e serviços seguem rigorosamente as NBR’s e as normas do Corpo de Bombeiros e prezamos pelo comprometimento, responsabilidade e respeito aos nossos clientes.
-            </p>
-        </section>
+        </div>
+        <div class="servicos__content">
+            <div class="servicos__pasta__svg"></div>
+            <p class="servicos__content__text">Criação de projetos de segurança</p>
+        </div>
 
-        <sextion class="servicos">
-            <h2 class="servicos__title">Serviços</h2>
+        <h3 class="servicos__instalacao">Instalações</h3>
+        
+        <div class="servicos__content">
+            <div class="servicos__hidraulico__svg"></div>
+            <p class="servicos__content__text">Sistema hidráulico</p>
+        </div>
             
-            <div>
-                
-            </div>
-            <div class="servicos__content">
-                <div class="servicos__pasta__svg"></div>
-                <p class="servicos__content__text">Criação de projetos de segurança</p>
+        <div class="servicos__content">
+            <div class="servicos__eletrico__svg"></div>
+            <p class="servicos__content__text">Sistema elétrico</p>
+        </div>
+
+        <div class="servicos__content">
+            <div class="servicos__sinalizacao__svg"></div>
+            <p class="servicos__content__text">Sinalização de emergência</p>
+        </div>
+
+        <div class="servicos__content">
+            <div class="servicos__extintores__svg"></div>
+            <p class="servicos__content__text">Extintores</p>
+        </div>
+    </sextion>
+
+    <sextion class="clientes">
+        <h2 class="clientes__title">Clientes</h2>
+
+        <div class="clientes__img">
+            <div class="clientes__img__item-agua-viva clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-agua-viva.png" 
+                    class="clientes__img-agua-viva">
+                </a>
             </div>
 
-            <h3 class="servicos__instalacao">Instalações</h3>
-            
-            <div class="servicos__content">
-                <div class="servicos__hidraulico__svg"></div>
-                <p class="servicos__content__text">Sistema hidráulico</p>
-            </div>
-                
-            <div class="servicos__content">
-                <div class="servicos__eletrico__svg"></div>
-                <p class="servicos__content__text">Sistema elétrico</p>
+            <div class="clientes__img__item-granja-gloria clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-granja-gloria.webp">
+                </a>
             </div>
 
-            <div class="servicos__content">
-                <div class="servicos__sinalizacao__svg"></div>
-                <p class="servicos__content__text">Sinalização de emergência</p>
+            <div class="clientes__img__item-intercast clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-intercast.png" 
+                    class="clientes__img-intercast"> 
+                </a>
             </div>
-
-            <div class="servicos__content">
-                <div class="servicos__extintores__svg"></div>
-                <p class="servicos__content__text">Extintores</p>
-            </div>
-        </sextion>
-
-        <sextion class="clientes">
-            <h2 class="clientes__title">Clientes</h2>
-
-            <div class="clientes__img">
-                <div class="clientes__img__item-agua-viva clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-agua-viva.png" 
-                        class="clientes__img-agua-viva">
-                    </a>
-                </div>
     
-                <div class="clientes__img__item-granja-gloria clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-granja-gloria.webp">
-                    </a>
-                </div>
-    
-                <div class="clientes__img__item-intercast clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-intercast.png" 
-                        class="clientes__img-intercast"> 
-                    </a>
-                </div>
-     
-                <div class="clientes__img__item-mineirao clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-minerao.webp" 
-                        class="clientes__img-minerao"> 
-                    </a>
-                </div>
-    
-                <div class="clientes__img__item-epa clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-epa.png" 
-                        class="clientes__img-epa"> 
-                    </a>
-                </div>
-    
-                <div class="clientes__img__item-dma clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-dma.png" 
-                        class="clientes__img-dma"> 
-                    </a>
-                </div>
-    
-                <div class="clientes__img__item-tropical-tenis-club clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-tropical-tenis-club.png" 
-                        class="clientes__img-tropical-tenis-club"> 
-                    </a>
-                </div>
-    
-                <div class="clientes__img__item-colegio-santana clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-colegio-santana.png" 
-                        class="clientes__img-colegio-santana"> 
-                    </a>
-                </div>
-    
-                <div class="clientes__img__item-itambe clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-itambe.png" 
-                        class="clientes__img-itambe"> 
-                    </a>
-                </div>
-                <div class="clientes__img__item-santanense clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-santanense.png" 
-                        class="clientes__img-santanense"> 
-                    </a>
-                </div>
-                <div class="clientes__img__item-patence clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-patence.png" 
-                        class="clientes__img-patence"> 
-                    </a>
-                </div>
-                <div class="clientes__img__item-incomfral clientes__img__item">
-                    <a class="clientes__img__link" href="#">
-                        <img src="./src/images/logo-incomfral.png" 
-                        class="clientes__img-incomfral"> 
-                    </a>
-                </div>
+            <div class="clientes__img__item-mineirao clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-minerao.webp" 
+                    class="clientes__img-minerao"> 
+                </a>
             </div>
 
-            
-        </sextion>
-
-        <section class="contato container">
-            <h2 class="contato__titulo">Contato</h2>
-            <p>Entre em contato com a gente</p>
-            <a href="contato.html" class="contato__botao botao">Entre em contato</a>
-        </section>
-        <section class="institucional container">
-            <div class="institucional__conteudo">
-                <div class="institucional__informacoes">
-
-                    <address class="institucional__endereco">
-                        Rua Turfa, 266 </br>
-                        Padre Eustáquio,</br> 
-                        Itaúna - MG
-                    </address>
-                    <article class="institucional__contato">
-                            </br>
-                            <a href="tel:+5537991925720" class="institucional__contato-telefone">
-                                (37) 99192-5720
-                            </a> 
-                            </br>
-                            ou 
-                            <a href="mailto:construita.previnir@yahoo.com.br" class="institucional__contato-email">
-                                construita.previnir@yahoo.com.br
-                            </a>
-                        </p>
-                    </article>
-                </div>
+            <div class="clientes__img__item-epa clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-epa.png" 
+                    class="clientes__img-epa"> 
+                </a>
             </div>
-        </section>
 
-        <header class="footer container">
-            <nav class="footer__navegacao">
-                <h3 class="footer__title"><a href="#">CONSTRUITA</a></h3>
-                <ul class="footer__link">
-                    <li class="footer__link"><a href="#">Sobre</a></li>
-                    <li class="footer__link"><a href="#">Serviços</a></li>
-                    <li class="footer__link"><a href="#">Clientes</a></li>
-                    <li class="footer__link"><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-    </body>
+            <div class="clientes__img__item-dma clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-dma.png" 
+                    class="clientes__img-dma"> 
+                </a>
+            </div>
+
+            <div class="clientes__img__item-tropical-tenis-club clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-tropical-tenis-club.png" 
+                    class="clientes__img-tropical-tenis-club"> 
+                </a>
+            </div>
+
+            <div class="clientes__img__item-colegio-santana clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-colegio-santana.png" 
+                    class="clientes__img-colegio-santana"> 
+                </a>
+            </div>
+
+            <div class="clientes__img__item-itambe clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-itambe.png" 
+                    class="clientes__img-itambe"> 
+                </a>
+            </div>
+            <div class="clientes__img__item-santanense clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-santanense.png" 
+                    class="clientes__img-santanense"> 
+                </a>
+            </div>
+            <div class="clientes__img__item-patence clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-patence.png" 
+                    class="clientes__img-patence"> 
+                </a>
+            </div>
+            <div class="clientes__img__item-incomfral clientes__img__item">
+                <a class="clientes__img__link" href="#">
+                    <img src="./src/images/logo-incomfral.png" 
+                    class="clientes__img-incomfral"> 
+                </a>
+            </div>
+        </div>
+
+        
+    </sextion>
+
+    <section class="contato container">
+        <h2 class="contato__titulo">Contato</h2>
+        <p>Entre em contato com a gente</p>
+        <a href="contato.html" class="contato__botao botao">Entre em contato</a>
+    </section>
+    <section class="institucional container">
+        <div class="institucional__conteudo">
+            <div class="institucional__informacoes">
+
+                <address class="institucional__endereco">
+                    Rua Turfa, 266 </br>
+                    Padre Eustáquio,</br> 
+                    Itaúna - MG
+                </address>
+                <article class="institucional__contato">
+                        </br>
+                        <a href="tel:+5537991925720" class="institucional__contato-telefone">
+                            (37) 99192-5720
+                        </a> 
+                        </br>
+                        ou 
+                        <a href="mailto:construita.previnir@yahoo.com.br" class="institucional__contato-email">
+                            construita.previnir@yahoo.com.br
+                        </a>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <header class="footer container">
+        <nav class="footer__navegacao">
+            <h3 class="footer__title"><a href="#">CONSTRUITA</a></h3>
+            <ul class="footer__link">
+                <li class="footer__link"><a href="#">Sobre</a></li>
+                <li class="footer__link"><a href="#">Serviços</a></li>
+                <li class="footer__link"><a href="#">Clientes</a></li>
+                <li class="footer__link"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="index.js"></script>
+</body>
 </html>
