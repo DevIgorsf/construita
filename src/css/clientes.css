@@ -1,6 +1,6 @@
 .clientes {
     padding-left: 50px;
-    height: 800px;
+    height: 930px;
     background: rgba(0,22,28,1);
     display: flex;
     flex-direction: column;
@@ -23,19 +23,105 @@
 .clientes__img {
     width: 85%;
     display: grid;
-    column-gap: 5px;
-    grid-template-columns: 1fr auto;
+    column-gap: 10px;
+    row-gap: 20px;
+    grid-template-columns: auto auto;
     box-sizing: border-box;
-    grid-column: 2;
-    line-height: 2;
+    justify-content: center;
+}
+
+.clientes__img__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.clientes__img img{
-    width: 120px;
+.clientes__img__item-agua-viva img {
+    width: 139px;
     height: 73px;
 }
 
-.clientes__img-intercast {
-    grid-template-columns: 2fr;
+
+.clientes__img__item-granja-gloria img {
+    width: 148px;
+    height: 73px;
+}
+
+.clientes__img__item-intercast {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.clientes__img__item-intercast img {
+    width: 274px;
+    height: 75px;
+}
+
+.clientes__img__item-mineirao img {
+    width: 133px;
+    height: 103px;
+}
+
+.clientes__img__item-epa img {
+    width: 95px;
+    height: 90px;
+}
+
+.clientes__img__item-dma {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.clientes__img__item-dma img{
+    width: 171px;
+    height: 74px;
+}
+
+.clientes__img__item-tropical-tenis-club img {
+    width: 148px;
+    height: 92px;
+}
+
+.clientes__img__item-colegio-santana img {
+    width: 132px;
+    height: 112px;
+}
+
+.clientes__img__item-itambe {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.clientes__img__item-itambe img {
+    width: 125px;
+    height: 72px;
+}
+
+.clientes__img__item-patence img {
+    width: 155 px;
+    height: 60px;
+}
+
+.clientes__img__item-santanense img {
+    width: 170px;
+    height: 66px;
+}
+
+.clientes__img__item-incomfral {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.clientes__img__item-incomfral img {
+    width: 306px;
+    height: 37px;
 }
