@@ -27,3 +27,46 @@
     line-height: 26px;
     margin-bottom: 50px;
 }
+
+.about__img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .about {
+        padding-left: 50px;
+        background: rgba(0,22,28,1);
+        display: grid;
+        column-gap: 40px;
+        row-gap: 40px;
+        grid-template-columns: auto auto;
+        color:  #fff;
+    }
+
+    .about__title {
+        width: 100%;
+        text-align: center;
+        grid-column: 1 / span 5;
+        margin-bottom: 1rem;
+    }
+
+    .about__text-first {
+        grid-column: 3 / span 3;
+    }
+
+    .about__text-second {
+        grid-column: 1 / span 5;
+    }
+
+    .about__img {
+        grid-column: 1 / span 2;
+        display: block;
+        width: 321px;
+        height: 232px;
+        border-radius: 60px;
+        background: url("../images/imagem-sobre.jpg");
+        background-size: 321px 232px;
+    }
+
+}
