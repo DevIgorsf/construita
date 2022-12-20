@@ -125,3 +125,32 @@
     width: 306px;
     height: 37px;
 }
+
+@media screen and (min-width: 768px) {
+
+    .clientes {
+        padding-left: 0px;
+        height: 550px;
+     }
+
+    .clientes__title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .clientes__img {
+        width: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-self: center;
+    }
+
+    .clientes__img__item-intercast img {
+        margin: 0 -20px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+}
