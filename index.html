@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title>Home | Construita</title>
+    <title>Construita</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="src/css/reset.css" rel="stylesheet">
     <link href="src/css/base.css" rel="stylesheet">
@@ -13,9 +13,11 @@
     <link href="src/css/services.css" rel="stylesheet">
     <link href="src/css/clientes.css" rel="stylesheet">
     <link href="src/css/sobre.css" rel="stylesheet">
+    <link href="src/css/galeria.css" rel="stylesheet">
     <link href="src/css/contato.css" rel="stylesheet">
     <link href="src/css/institucional.css" rel="stylesheet">
     <link href="src/css/footer.css" rel="stylesheet">
+    <link rel="icon" href="src/svg/extintor_preto.svg" type="image/gif" sizes="16x16">
 </head>
 
 <body class="container" >
@@ -24,10 +26,10 @@
         <h1 class="header__title"><a href="#">CONSTRUITA</a></h1>
         <nav class="header__navegacao">
             <ul class="header__link">
-                <li class="header__link-item header__link-sobre"><a href="#">Sobre</a></li>
-                <li class="header__link-item header__link-servicos"><a href="#">Serviços</a></li>
-                <li class="header__link-item header__link-clientes"><a href="#">Clientes</a></li>
-                <li class="header__link-item header__link-contato"><a href="#">Contato</a></li>
+                <li class="header__link-item header__link-sobre"><a href="#about">Sobre</a></li>
+                <li class="header__link-item header__link-servicos"><a href="#servicos">Serviços</a></li>
+                <li class="header__link-item header__link-clientes"><a href="#clientes">Clientes</a></li>
+                <li class="header__link-item header__link-contato"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -42,7 +44,7 @@
         </button>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
         <h2 class="about__title">Sobre a Construita</h2>
         <div class="about__img"></div>
     
@@ -54,7 +56,7 @@
         </p>
     </section>
 
-    <sextion class="servicos">
+    <section id="servicos"  class="servicos">
         <h2 class="servicos__title">Serviços</h2>
         
         <div class="servicos__content">
@@ -85,97 +87,127 @@
                 <p class="servicos__content__text">Extintores</p>
             </div>
         </section>
-    </sextion>
+    </section>
 
-    <sextion class="clientes">
+    <section id="clientes" class="clientes">
         <h2 class="clientes__title">Clientes</h2>
 
         <div class="clientes__img">
             <div class="clientes__img__item-agua-viva clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-agua-viva.png" 
+                    <img src="./src/images/clientes/logo-agua-viva.png" 
                     class="clientes__img-agua-viva">
                 </a>
             </div>
 
             <div class="clientes__img__item-granja-gloria clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-granja-gloria.webp">
+                    <img src="./src/images/clientes/logo-granja-gloria.webp">
                 </a>
             </div>
 
             <div class="clientes__img__item-intercast clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-intercast.png" 
+                    <img src="./src/images/clientes/logo-intercast.png" 
                     class="clientes__img-intercast"> 
                 </a>
             </div>
     
             <div class="clientes__img__item-mineirao clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-minerao.webp" 
+                    <img src="./src/images/clientes/logo-minerao.webp" 
                     class="clientes__img-minerao"> 
                 </a>
             </div>
 
             <div class="clientes__img__item-epa clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-epa.png" 
+                    <img src="./src/images/clientes/logo-epa.png" 
                     class="clientes__img-epa"> 
                 </a>
             </div>
 
             <div class="clientes__img__item-dma clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-dma.png" 
+                    <img src="./src/images/clientes/logo-dma.png" 
                     class="clientes__img-dma"> 
                 </a>
             </div>
 
             <div class="clientes__img__item-tropical-tenis-club clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-tropical-tenis-club.png" 
+                    <img src="./src/images/clientes/logo-tropical-tenis-club.png" 
                     class="clientes__img-tropical-tenis-club"> 
                 </a>
             </div>
 
             <div class="clientes__img__item-colegio-santana clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-colegio-santana.png" 
+                    <img src="./src/images/clientes/logo-colegio-santana.png" 
                     class="clientes__img-colegio-santana"> 
                 </a>
             </div>
 
             <div class="clientes__img__item-itambe clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-itambe.png" 
+                    <img src="./src/images/clientes/logo-itambe.png" 
                     class="clientes__img-itambe"> 
                 </a>
             </div>
             <div class="clientes__img__item-santanense clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-santanense.png" 
+                    <img src="./src/images/clientes/logo-santanense.png" 
                     class="clientes__img-santanense"> 
                 </a>
             </div>
             <div class="clientes__img__item-patence clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-patence.png" 
+                    <img src="./src/images/clientes/logo-patence.png" 
                     class="clientes__img-patence"> 
                 </a>
             </div>
             <div class="clientes__img__item-incomfral clientes__img__item">
                 <a class="clientes__img__link" href="#">
-                    <img src="./src/images/logo-incomfral.png" 
+                    <img src="./src/images/clientes/logo-incomfral.png" 
                     class="clientes__img-incomfral"> 
                 </a>
             </div>
         </div>
+    </section>
 
+    <section id="galeria" class="galeria">
+        <h2 class="galeria__titulo">galeria</h2>
+        <div class="slideshow-container">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <div class="mySlides fade">
+                <img class="galeria__img" src="src/images/galeria/img1.jpg">
+                <img class="galeria__img" src="src/images/galeria/img1.jpg">
+                <img class="galeria__img" src="src/images/galeria/img1.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img class="galeria__img" src="src/images/galeria/img2.jpg">
+                <img class="galeria__img" src="src/images/galeria/img2.jpg">
+                <img class="galeria__img" src="src/images/galeria/img2.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img class="galeria__img" src="src/images/galeria/img3.jpg">
+                <img class="galeria__img" src="src/images/galeria/img3.jpg">
+                <img class="galeria__img" src="src/images/galeria/img3.jpg">
+            </div>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
         
-    </sextion>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <div class="linha">
+    </section>
 
-    <section class="contato container">
+
+    <section id="contato" class="contato container">
         <h2 class="contato__titulo">Contato</h2>
         <p>Entre em contato com a gente</p>
         <a href="contato.html" class="contato__botao botao">Entre em contato</a>
