@@ -181,19 +181,19 @@
         <div class="galeria__slideshow-container">
             <a class="galeria__slideshow__prev" onclick="galeriaPlusSlides(-1)">&#10094;</a>
             <div class="galeria__slideshow__mySlides galeria__slideshow__fade">
-                <img class="galeria__img" src="src/images/galeria/img1.jpg">
-                <img class="galeria__img" src="src/images/galeria/img1.jpg">
-                <img class="galeria__img" src="src/images/galeria/img1.jpg">
+                <img class="galeria__img" src="src/images/galeria/img1.jpg" onclick="openModal(); modalCurrentSlide(1)">
+                <img class="galeria__img" src="src/images/galeria/img1.jpg" onclick="openModal(); modalCurrentSlide(1)">
+                <img class="galeria__img" src="src/images/galeria/img1.jpg" onclick="openModal(); modalCurrentSlide(1)">
             </div>
             <div class="galeria__slideshow__mySlides galeria__slideshow__fade">
-                <img class="galeria__img" src="src/images/galeria/img2.jpg">
-                <img class="galeria__img" src="src/images/galeria/img2.jpg">
-                <img class="galeria__img" src="src/images/galeria/img2.jpg">
+                <img class="galeria__img" src="src/images/galeria/img2.jpg" onclick="openModal(); modalCurrentSlide(2)">
+                <img class="galeria__img" src="src/images/galeria/img2.jpg" onclick="openModal(); modalCurrentSlide(2)">
+                <img class="galeria__img" src="src/images/galeria/img2.jpg" onclick="openModal(); modalCurrentSlide(2)">
             </div>
             <div class="galeria__slideshow__mySlides galeria__slideshow__fade">
-                <img class="galeria__img" src="src/images/galeria/img3.jpg">
-                <img class="galeria__img" src="src/images/galeria/img3.jpg">
-                <img class="galeria__img" src="src/images/galeria/img3.jpg">
+                <img class="galeria__img" src="src/images/galeria/img3.jpg" onclick="openModal(); modalCurrentSlide(3)">
+                <img class="galeria__img" src="src/images/galeria/img3.jpg" onclick="openModal(); modalCurrentSlide(3)">
+                <img class="galeria__img" src="src/images/galeria/img3.jpg" onclick="openModal(); modalCurrentSlide(3)">
             </div>
             <a class="galeria__slideshow__next" onclick="galeriaPlusSlides(1)">&#10095;</a>
         </div>
@@ -204,6 +204,34 @@
             <span class="galeria__dot" onclick="galeriaCurrentSlide(2)"></span>
             <span class="galeria__dot" onclick="galeriaCurrentSlide(3)"></span>
         </div>
+
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 3</div>
+                    <img class="galeria__img-modal" src="src/images/galeria/img1.jpg" style="width:90vh">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">2 / 3</div>
+                    <img class="galeria__img-modal" src="src/images/galeria/img2.jpg" style="width:90vh">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">3 / 3</div>
+                    <img class="galeria__img-modal" src="src/images/galeria/img3.jpg" style="width:90vh">
+                </div>
+            
+                
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+
         <div class="galeria__linha">
     </section>
 
@@ -211,7 +239,7 @@
     <section id="contato" class="contato container">
         <h2 class="contato__titulo">Contato</h2>
         <p>Entre em contato com a gente</p>
-        <a href="contato.html" class="contato__botao botao">Entre em contato</a>
+        <a href="mailto:construita.prevenir@yahoo.com.br" class="contato__botao botao">Entre em contato</a>
     </section>
     <section class="institucional container">
         <div class="institucional__conteudo">
@@ -238,7 +266,7 @@
         </div>
     </section>
 
-    <header class="footer container">
+    <footer class="footer container">
         <nav class="footer__navegacao">
             <h3 class="footer__title"><a href="#">CONSTRUITA</a></h3>
             <ul class="footer__link">
@@ -249,7 +277,8 @@
                 <li class="footer__link"><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-    </header>
+        <p class="footer__copyright">&copy; 2023 Empreiteira Construita | Desenvolvido por Igor Soares</p>
+    </footer>
     <script src="index.js"></script>
 </body>
 </html>

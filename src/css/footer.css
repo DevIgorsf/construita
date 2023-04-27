@@ -1,5 +1,5 @@
 .footer {
-    height: 135px;
+    height: 155px;
     background: rgba(0,22,28,1);
     color: #fff;
     display: flex;
@@ -36,8 +36,23 @@
     display: none;
 }
 
+.footer__copyright {
+    padding: 16px 0 4px 0;
+    align-self: center;
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
+    .footer {
+        height: 135px;
+    }
+
     .footer__link-galeria {
         display: inline;
+    }
+
+    .footer__copyright {
+        padding: 16px 0 4px 0;
+        align-self: center;
     }
 }

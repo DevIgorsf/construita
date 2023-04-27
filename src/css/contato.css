@@ -28,6 +28,10 @@
     margin-top: 1rem;
 }
 
+.contato__botao:hover{
+    background-color: rgba(194, 194, 194, 0.096);
+}
+
 @media screen and (min-width: 768px) {
 
 }
