@@ -6,17 +6,17 @@ botaoMenu.addEventListener('click', () => {
 })
 
 let slideIndex = 1;
-showSlides(slideIndex);
+galeriaShowSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function galeriaPlusSlides(n) {
+  galeriaShowSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function galeriaCurrentSlide(n) {
+  galeriaShowSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function galeriaShowSlides(n) {
   let i;
   let slides = document.getElementsByClassName("galeria__slideshow__mySlides");
   let dots = document.getElementsByClassName("galeria__dot");
