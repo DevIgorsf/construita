@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     color:  #fff;
- }
+}
 
  .clientes__title {
     margin-top: 50px;
@@ -152,5 +152,82 @@
     
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 840px) {
+    .clientes__img {
+        row-gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .clientes__img {
+        display: grid;
+        column-gap: 20px;
+        row-gap: 40px;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .clientes__img__item-intercast {
+        grid-row: 3;
+        grid-column: 4;
+        margin: 0 -20px;
+    }
+    
+    
+    .clientes__img__item-mineirao  {
+        grid-row: 2;
+        grid-column: 1;
+    }
+    
+    .clientes__img__item-epa {
+        grid-row: 2;
+        grid-column: 2;
+    }
+    
+    .clientes__img__item-dma {
+        grid-row: 2;
+        grid-column: 3;
+    }
+    
+    .clientes__img__item-dma img{
+        width: 233px;
+        height: 74px;
+    }
+    
+    .clientes__img__item-tropical-tenis-club {
+        grid-row: 1;
+        grid-column: 3;
+    }
+    
+    .clientes__img__item-colegio-santana {
+        grid-row: 1;
+        grid-column: 4;
+    }
+    
+    .clientes__img__item-itambe {
+        grid-row: 2;
+        grid-column: 4;
+    }
+
+    .clientes__img__item-itambe img {
+        width: 148px;
+        height: 78px;
+    }
+    
+    
+    .clientes__img__item-patence {
+        grid-row: 3;
+        grid-column: 1;
+    }
+    
+    .clientes__img__item-santanense {
+        grid-row: 3;
+        grid-column: 2;
+    }
+    
+    .clientes__img__item-incomfral {
+        grid-row: 3;
+        grid-column: 3;
+        margin: 0 -40px;
+    }
 }

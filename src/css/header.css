@@ -36,6 +36,10 @@
     font-weight: Bold;
 }
 
+.header__link-galeria {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     
     .header {
@@ -107,6 +111,10 @@
         flex-direction: column;
         justify-content: space-around;
         
+    }
+
+    .header__link-galeria {
+        display: flex;
     }
     
 }
