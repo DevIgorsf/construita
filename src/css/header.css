@@ -73,6 +73,7 @@
         top: 70px;
         width: 25vw;
         height: 100vh;
+        max-height: 420px;
     
         position: absolute;
         left: -100vw;
@@ -117,4 +118,14 @@
         display: flex;
     }
     
+}
+
+@media screen and (min-width: 1024px) {
+    .header__navegacao {
+        max-width: 220px;
+    }
+
+    .header__link-item a {
+        font-size: 24px;
+    }
 }

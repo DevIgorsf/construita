@@ -51,7 +51,7 @@ function plusSlides(n) {
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
+function modalCurrentSlide(n) {
   showSlides(ModalSlideIndex = n);
 }
 
